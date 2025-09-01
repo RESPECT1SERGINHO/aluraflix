@@ -9,5 +9,52 @@ body {
 head {
     borber-bottom: solid 2px rgb(42, 122, 288);
     paddig: 20px;
+    front-size:32px;
     color: rgb(42, 122, 288);
+}
+
+chamada {
+    backgroud: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    front-size: 40px;
+}
+
+p{
+    front-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;''
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-riright: 20px;
+    margin-top: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:houver {
+    opacity:1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
